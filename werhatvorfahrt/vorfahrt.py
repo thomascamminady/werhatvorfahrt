@@ -89,6 +89,10 @@ class Sign:
                 Car(coming_from=coming_from, going_to=going_to, color=color)
             )
 
+    def resolve(self) -> list[list[Car]]:
+        """Resolves the vorfahrt situation."""
+        pass
+
     def draw(
         self,
         subplot_kwargs: dict[str, Any] | None = None,
